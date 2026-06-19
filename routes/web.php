@@ -8,10 +8,15 @@ use App\Http\Controllers\PostListController;
 use App\Http\Controllers\TopController;
 use App\Http\Controllers\WelcomeController;
 
-Route::get('/', [TopController::class, 'top']);
+// Route::get('/', [TopController::class, 'top']);
 
-Route::get('/welcome', [WelcomeController::class, 'welcome'])
-    ->name('welcome');
+// Route::get('/welcome', [WelcomeController::class, 'welcome'])
+//     ->name('welcome');
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
 
 Route::get('/dashboard', [GoogleMapsController::class, 'index'])
     ->middleware(['auth', 'verified'])
