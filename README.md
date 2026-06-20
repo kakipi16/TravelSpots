@@ -27,7 +27,7 @@ https://sail-vite.fly.dev/
 - node.js 22.22.0
 - Docker/Docker-compose
 - Google Maps API
-- tailwindcss
+- Tailwind CSS
 
 ## 機能一覧
 - ユーザー登録、ログイン機能(Breeze)
