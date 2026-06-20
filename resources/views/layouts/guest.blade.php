@@ -17,7 +17,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-roboto bg-[#F9FAFB] dark:bg-[#0a0a0a] text-[#1E293B] min-h-screen"">
+<body class="font-roboto bg-[#F9FAFB] text-[#1E293B] min-h-screen"">
 <?php include_once 'images/symbol-defs.svg'; ?>
     <x-header />
     <main class=" w-full min-h-[calc(100vh-80px-80px)] flex items-center justify-center">

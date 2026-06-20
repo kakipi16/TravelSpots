@@ -8,7 +8,8 @@ use App\Http\Controllers\PostListController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+    })
+    ->name('welcome');
 
 Route::get('/dashboard', [GoogleMapsController::class, 'index'])
     ->middleware(['auth', 'verified'])

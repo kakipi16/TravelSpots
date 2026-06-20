@@ -5,7 +5,7 @@
             <svg class="icon icon-Logo-Icon w-[40px]">
                 <use xlink:href="#icon-Logo-Icon"></use>
             </svg>
-            <a href="{{ route('dashboard') }}" class="text-2xl font-black">
+            <a href="{{ route('welcome') }}" class="text-2xl font-black">
                 TravelSpots
             </a>
         </div>
